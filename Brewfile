@@ -13,6 +13,7 @@ install node
 install sqlite
 install imagemagick
 install geoip
+install wget
 
 
 # casks (mac apps)
