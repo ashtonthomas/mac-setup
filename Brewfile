@@ -12,6 +12,7 @@ install rabbitmq
 install node
 install sqlite
 install imagemagick
+install geoip
 
 
 # casks (mac apps)
