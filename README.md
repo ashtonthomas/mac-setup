@@ -11,7 +11,15 @@ If that doesn't work, [install Xcode](https://itunes.apple.com/us/app/xcode/id49
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-## 3. install rvm
+## 3. install rbenv || rvm 
+
+**rbenv**
+```
+brew install rbenv
+brew install ruby-build
+```
+
+**rvm**
 ```
 curl -sSL https://get.rvm.io | bash -s stable --ruby=2.0.0
 ```
