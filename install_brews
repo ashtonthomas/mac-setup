@@ -1,0 +1,35 @@
+# taps
+brew tap caskroom/cask
+
+# install service etuff
+brew link libtool
+brew install mysql
+brew install elasticsearch
+brew install redis
+brew install mongodb
+brew install memcached
+brew install rabbitmq
+brew install node
+brew install sqlite
+brew install imagemagick
+brew install geoip
+brew install wget
+
+
+# casks (mac apps)
+brew install caskroom/cask/brew-cask
+
+# see the appdir path below.  without it, you'll install to ~/Applications, which is perfectly fine for some people
+brew cask install sublime-text --appdir=/Applications
+brew cask install sequel-pro --appdir=/Applications
+brew cask install google-chrome --appdir=/Applications
+brew cask install sourcetree --appdir=/Applications
+brew cask install google-drive --appdir=/Applications
+brew cask install caffeine --appdir=/Applications
+brew cask install iterm2 --appdir=/Applications
+brew cask install robomongo --appdir=/Applications
+brew cask install ngrok --appdir=/Applications
+brew cask install shuttle --appdir=/Applications
+brew cask install virtualbox --appdir=/Applications
+brew cask install vagrant --appdir=/Applications
+brew cask install launchrocket --appdir=/Applications

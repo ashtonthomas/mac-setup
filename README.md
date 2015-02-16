@@ -28,5 +28,5 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby=2.0.0
 ```
 git clone git@github.com:bellycard/mac-setup.git
 cd mac-setup
-brew bundle
+./install_brews
 ```
