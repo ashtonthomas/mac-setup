@@ -26,7 +26,6 @@ cask install google-chrome --appdir=/Applications
 cask install sourcetree --appdir=/Applications
 cask install google-drive --appdir=/Applications
 cask install caffeine --appdir=/Applications
-cask install hipchat --appdir=/Applications
 cask install iterm2 --appdir=/Applications
 cask install robomongo --appdir=/Applications
 cask install ngrok --appdir=/Applications
