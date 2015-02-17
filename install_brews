@@ -34,6 +34,7 @@ if [ -x /usr/local/bin/brew ]; then
   brew cask install ngrok --appdir=/Applications
   brew cask install shuttle --appdir=/Applications
   brew cask install virtualbox --appdir=/Applications
+  brew cask install boot2docker --appdir=/Applications
   brew cask install vagrant --appdir=/Applications
   brew cask install launchrocket --appdir=/Applications
 else
