@@ -17,6 +17,7 @@ if [ -x /usr/local/bin/brew ]; then
   brew install imagemagick
   brew install geoip
   brew install wget
+  brew install icu4c  # Required for charlock_holmes gem
 
 
   # casks (mac apps)
