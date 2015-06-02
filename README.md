@@ -1,17 +1,17 @@
 # Set up your new Mac directions
 
 ## 1. install command line tools for building.
-- Open the "App Store" application
-- Click "Update" for the "Command Line Developer Tools for OS X Mavericks"
-
-If that doesn't work, [install Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and then install command line tools from there 
+- [install/update Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) from the "App Store"
+- command line tools installed?: `$ pkgutil --pkg-info=com.apple.pkg.CLTools_Executables`
+- if not: `$ xcode-select --install`
+- open Xcode and agree to any terms (or things may just not work)
 
 ## 2. install homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## 3. install rbenv || rvm 
+## 3. install rbenv || rvm
 
 **rbenv**
 ```
